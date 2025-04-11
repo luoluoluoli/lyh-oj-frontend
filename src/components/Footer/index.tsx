@@ -15,7 +15,7 @@ const Footer: React.FC = () => {
       links={[
         {
           key: 'codeNav',
-          title: '编程导航',
+          title: '苏州大学计算机学院',
           href: 'https://yupi.icu',
           blankTarget: true,
         },
@@ -29,7 +29,7 @@ const Footer: React.FC = () => {
           key: 'github',
           title: (
             <>
-              <GithubOutlined /> 鱼皮源码
+              <GithubOutlined /> 关于我
             </>
           ),
           href: 'https://github.com/liyupi',
@@ -40,3 +40,4 @@ const Footer: React.FC = () => {
   );
 };
 export default Footer;
+

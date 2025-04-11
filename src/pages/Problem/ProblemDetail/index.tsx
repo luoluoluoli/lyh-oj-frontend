@@ -161,7 +161,7 @@ const ProblemDetail: React.FC = ()=>{
   const submitProblem = ()=>{
     if(problem){
       setResultLoading(true);
-      doProblemSubmit({code, language, problemId: problem.id}).then(res => {
+      doProblemSubmit({code, language, questionId: problem.id}).then(res => {
         console.log(res);
         //将搜索参数拼接到query上
         changeTargetSubmitId(res.data.id.toString());
